@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input for frontend development</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="src/logo.webp">
+    <script
+      src="https://kit.fontawesome.com/2d0f2967f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="">
+        <img src="src/logo.webp" alt="">
+        <h2>ចូលប្រើប្រាស់គណនីរបស់អ្នក</h2>
+        <div class="btn-box">
+          <input type="text" placeholder="ឈ្មោះអ្នកប្រើប្រាស់" required />
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="btn-box">
+          <input type="password" placeholder="ពាក្យសម្ងាត់" required />
+          <i class="fa-solid fa-eye-slash"></i>
+        </div>
+        <div class="remember-me">
+          <label><input type="checkbox" />ចង់ចាំខ្ញុំ</label>
+          <a href="#">ភ្លេចលេខសម្ងាត់?</a>
+        </div>
+        <button class="btn"><a href="#">ចូលប្រើប្រាស់</a></button>
+      </form>
+      <div class="register-link">
+        <p>តើអ្នកមានគណនីឬអត់?<a href="#">ចុះឈ្មោះ</a></p>
+      </div>
+      <div class="langeuage">
+        <img src="src/kh_FLAG.png" alt="khmer" class="khmer">
+        <img src="src/en_FLAG.png" alt="english" class="english" onclick="window.location.href='/index.html';">
+      </div>
+    </div>
+  </body>
+</html>
